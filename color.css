@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+header {
+    background-color: #33CC09;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+}
+
+.header-buttons {
+    margin-top: 10px;
+}
+
+.header-buttons a {
+    text-decoration: none;
+    color: white;
+    background-color: #854f30;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 16px;
+    margin: 0 5px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.header-buttons a:hover {
+    background-color: #ffc107;
+    transform: scale(1.1);
+}
+
+.catalogo {
+    padding: 20px;
+    text-align: center;
+}
+
+.pizza-item {
+    background-color: white;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 400px;
+    text-align: left;
+}
+
+.pizza-item h3 {
+    margin-top: 0;
+    color: #ff5722;
+}
+
+.pizza-item p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.planta-img {
+    width: 100%;
+    height: auto;
+    max-width: 400px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.planta-img.tamaño-pequeño {
+    width: 400px;
+}
+
+.planta-img.tamaño-grande {
+    width: 400px;
+}
+
+.btn-comprar {
+    background-color: #854f30;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn-comprar:hover {
+    background-color: #ffcc00;
+    transform: scale(1.1);
+}
